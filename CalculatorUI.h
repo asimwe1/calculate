@@ -1,0 +1,4 @@
+#ifndef CALCULATORUI_H
+#define CALCULATORUI_H
+
+#endif // CALCULATORUI_H
