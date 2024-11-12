@@ -14,5 +14,9 @@ HEADERS += \
     Subtraction.h
 
 SOURCES += \
+    Addition.cpp \
     CalculatorUI.cpp \
+    Division.cpp \
+    Multiplication.cpp \
+    Subtraction.cpp \
     main.cpp
