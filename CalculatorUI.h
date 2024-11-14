@@ -11,15 +11,29 @@ class CalculatorUI: public QWidget{
     
 public:
     CalculatorUI(QWidget *parent = nullptr);
-    
+
+
 private slots:
     void performCalculation();
+    void one();
+    void two();
+    void three();
+    void four();
+    void five();
+    void six();
+    void seven();
+    void eight();
+    void nine();
+    void zero();
+
     
 private:
     QLineEdit *input1;
     QLineEdit *input2;
     QComboBox *operation;
     QLineEdit *result;
+
+
 };
 
 #endif // CALCULATORUI_H
